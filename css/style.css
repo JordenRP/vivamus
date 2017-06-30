@@ -1,0 +1,64 @@
+body {
+  padding-top: 53px;
+  background-image: url(../app/images/background.jpg);
+}
+
+.logo {
+  background-color: #2f3234;
+  text-align: center;
+  padding: 12px 13px 2px 13px;
+}
+
+.logo--text{
+  text-transform: uppercase;
+  color: white;
+  font-size: 26px;
+}
+
+.nav-text {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+li a {
+  color: black;
+}
+
+li a:hover, li a:focus {
+  color: black;
+}
+
+.nav-tabs>li {
+  margin-bottom: 0;
+}
+
+.nav-tabs>li>a {
+  padding-top: 23px;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.nav .own-active{
+  background: none;
+  position: relative;
+}
+
+.nav .own-active::after {
+  content: '';
+  position: absolute;
+  
+  right: 20px;
+  bottom: 0px;
+  left: 15px;
+  
+  height: 5px;
+  
+  background-color: white;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+
