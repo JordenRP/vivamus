@@ -3,21 +3,32 @@ body {
   background-image: url(../app/images/background.jpg);
 }
 
-.logo {
-  background-color: #2f3234;
-  text-align: center;
-  padding: 12px 13px 2px 13px;
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
-.logo--text{
+.logo {
+  width: 170px;
+  min-height: 60px;
+  background-color: #2f3234;
+  text-align: center;
+  padding: 12px 13px 4px 13px;
+}
+
+.logo-text{
   text-transform: uppercase;
   color: white;
   font-size: 26px;
 }
 
+.nav {
+  margin-left: 20px;
+}
+
 .nav-text {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 li a {
@@ -60,5 +71,67 @@ li a:hover, li a:focus {
     border-bottom: none;
 }
 
+.position-slide {
+  margin-top: 62px;
+}
+
+.carousel-indicators .active {
+  background-color: #9d0000;
+}
+
+.carousel-indicators li {
+  border: 1px solid #a5a5a5;
+}
+
+ol, ul {
+    margin-bottom: 26px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 0px;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+}
+
+.slide-text {
+  text-transform: uppercase;
+  margin-left: 901px;
+}
+.slide-title {
+  font-size: 26px;
+  background-color: #c33737;
+  padding-right: 15px;
+  margin-left: 55px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.slide-description {
+  font-size: 18px;
+  background-color: #2f3234;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
 
 
+.carousel-caption-own {
+    position: absolute;
+    /* right: 15%; */
+    bottom: 110px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
