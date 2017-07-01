@@ -3,6 +3,11 @@ body {
   background-image: url(../app/images/background.jpg);
 }
 
+.container {
+    width: 1170px;
+    max-width: none !important;
+}
+
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
@@ -75,12 +80,26 @@ li a:hover, li a:focus {
   margin-top: 62px;
 }
 
-.carousel-indicators .active {
+.carousel-indicators-own .active {
   background-color: #9d0000;
 }
 
-.carousel-indicators li {
+.carousel-indicators-own li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0,0,0,0);
   border: 1px solid #a5a5a5;
+  border-radius: 10px;
+}
+
+.carousel-indicators-own{
+  text-align: center;
+  padding-right: 33px;
+  padding-top: 9px;
 }
 
 ol, ul {
@@ -213,5 +232,5 @@ ol, ul {
 }
 
 .position-info {
-  padding-top: 90px;
+  padding-top: 35px;
 }
