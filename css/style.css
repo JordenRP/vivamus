@@ -234,3 +234,116 @@ ol, ul {
 .position-info {
   padding-top: 35px;
 }
+
+.b-content {
+  background-color: #2f3234;
+  width: 630px;
+  height: 240px;
+  padding-left: 30px;
+}
+
+.position-img {
+  margin-left: 0;
+  margin-right: 0;
+  width: 270px;
+  
+}
+
+.col-xs-9 >.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.line-pos {
+  position: relative;
+  z-index: 0;
+}
+
+.line-content:before {
+  content: '';
+  position: absolute;
+  
+  background:#4b4d4f;
+  width: 630px;
+  height: 1px;
+}
+
+.text-content >h2 {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.text-content >h3 {
+  color: #743435;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.text-content >p {
+  color: #6d6f71;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.text-content {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 75px;
+}
+
+
+.link-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.link-btn:focus {
+  color: white;
+  text-decoration: none;
+}
+
+
+.rectangle {
+  background-color: #2f3234;
+  border: 1px solid #4b4d4f;
+  width: 77px;
+  height: 30px;
+}
+
+.circle {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background: #c33737;
+  border-radius: 12px;
+  bottom: 16px;
+  left: 52px;
+}
+
+.circle:before,
+.circle:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 2px;
+  background-color: #2f3234;
+  top: 5px;
+  left: 3px;
+}
+
+.circle:before {
+   transform: rotate(90deg)
+}
+
+.link-btn {
+  display: block;
+  padding-top: 4px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.position-content {
+  position: relative;
+  margin-top: 110px;
+}
