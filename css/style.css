@@ -1,3 +1,20 @@
+@import url(http://weloveiconfonts.com/api/?family=maki|typicons|zocial);
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
 body {
   padding-top: 53px;
   background-image: url(../app/images/background.jpg);
@@ -346,4 +363,111 @@ ol, ul {
 .position-content {
   position: relative;
   margin-top: 110px;
+}
+
+.title-form {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+
+.form {
+  background:#c33737;
+  width: 300px;
+  height: 360px;
+  padding-top: 18px;
+  margin-top: 60px;
+}
+
+.form-item{
+    width: 240px;
+    height: 35px;
+}
+
+ .name {
+  width: 240px;
+}
+
+.text{
+  height: 75px;
+  resize: none;
+}
+
+.form-item {
+  margin-top: 20px;
+  margin-left: 30px;
+  background:#c33737;
+  border: 1px solid #d66767;
+}
+.name {
+  margin-top: 0px;
+}
+
+input[type='submit'] {
+  margin-left: 30px;
+  background:#c33737;
+  border: 1px solid #d66767;
+  width: 90px;
+  height: 35px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.form-item::placeholder {
+  color: #d66767;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.image-1{
+  width: 35px;
+  height: 35px;
+  border-left: 1px solid #d66767;
+  position: absolute;
+  left: 239px;
+  bottom: 243px;
+  padding-top: 5px;
+  padding-left: 11px;
+}
+
+.image-2{
+  width: 35px;
+  height: 35px;
+  border-left: 1px solid #d66767;
+  position: absolute;
+  left: 239px;
+  bottom: 188px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+.image-3{
+  width: 35px;
+  height: 35px;
+  border-left: 1px solid #d66767;
+  border-bottom: 1px solid #d66767;
+  position: absolute;
+  left: 239px;
+  bottom: 133px;
+  padding-top: 7px;
+  padding-left: 9px;
+}
+
+.zocial-guest {
+  color:#d66767;
+  
+}
+
+.typicons-edit {
+  color:#d66767;
+  font-size: 17px;
+}
+
+.maki-post {
+  color:#d66767;
+  font-size: 16px;
 }
